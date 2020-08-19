@@ -21,10 +21,11 @@ const middle = function(iniArr) {
   if (iniArr.length % 2 !== 0) {
     resultArray.push(iniArr[Math.floor((iniArr.length / 2))]);
   } else {
-    resultArray.push(iniArr[((iniArr.length / 2)) - 1])
+    resultArray.push(iniArr[((iniArr.length / 2)) - 1]);
     resultArray.push(iniArr[((iniArr.length / 2))]);
-    ;
   }
   return resultArray;
 };
 console.log(middle([1, 2]));
+
+assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
