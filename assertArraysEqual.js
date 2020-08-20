@@ -12,7 +12,9 @@ const eqArrays = function(arr1, arr2) {
 };
 
 const assertArraysEqual = function(arr1, arr2) {
-  eqArrays(arr1, arr2) ? console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2}`) : console.log(`❌❌❌ Assertion Failed: ${arr1} !== ${arr2}`);
+  const inspect = require('util').inspect;
+  eqArrays(arr1, arr2) ? console.log(`✅✅✅ Assertion Passed: ${inspect(arr1)} === ${inspect(arr2)}`) : console.log(`❌❌❌ Assertion Failed: ${inspect(arr1)} !== ${inspect(arr2)}`);
 };
 
-assertArraysEqual([1 ,2 ,3], [1, 2, 3]);
+assertArraysEqual([1 ,2 ,3], [1, 2, "3"]);
+assertArraysEqual([1 ,2 ,3], [1, 2, undefined]);
