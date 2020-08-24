@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@lawfulkami/lotide",
   "version": "1.0.0",
-  "description": "Clone library",
+  "description": "Clone library for learning purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/LawfulKami/lotide.git"
   },
-  "author": "Lawful Kami",
+  "author": { "name" : "Lanny Rivest" },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LawfulKami/lotide/issues"
