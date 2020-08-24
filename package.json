@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "Clone library",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawfulKami/lotide.git"
+  },
+  "author": "Lawful Kami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawfulKami/lotide/issues"
+  },
+  "homepage": "https://github.com/LawfulKami/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  }
+}
