@@ -19,3 +19,5 @@ console.log(findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 1));// => "Blue Hill")
+
+module.exports = findKey;
